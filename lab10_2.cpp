@@ -149,5 +149,7 @@ int main()
 
 	pthread_join(consumer, (void **)NULL);
 
+	delete data;
+
 	return 0;
 }
